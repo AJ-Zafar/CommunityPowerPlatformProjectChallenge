@@ -1,10 +1,10 @@
-# Power Platform Challenge 2024 🚀
+# Power Platform Project Challenge 2024 🚀
 
-Welcome to **The Power Platform Challenge**! This is an opportunity to tackle real-world app-building scenarios, sharpen your skills, and receive feedback on your solutions. Showcase your work, gain valuable experience, and add this project to your portfolio or just get involved to have some fun! 🌟
+Welcome to **The Power Platform Project Challenge**! This is an opportunity to tackle real-world app-building scenarios, sharpen your skills, and receive feedback on your solutions. Showcase your work, gain valuable experience, and add this project to your portfolio, or just get involved and have some fun! 🌟
 
 This has been created off the back of a lot of people asking for suggestions for projects to build their experience and evidence skills after they complete things like the Power Up Program, PL-900 and other Power Platform Training. If this is appreciated and popular I will do more of these with different challenges. Give these a try especially if you are looking to build up some confidence or just have some fun! 
 
-Try to build solutions using Dataverse as the Datasource rather than Sharepoint. If you have any issues with this let me know.
+Try to build solutions using Dataverse as the Datasource rather than Sharepoint. If you have any issues with this, let me know.
 
 I will be taking part in building these and sharing how I might tackle these challenges for those interested 🙂.
 
