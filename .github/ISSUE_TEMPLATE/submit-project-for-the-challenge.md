@@ -1,12 +1,3 @@
----
-name: Submit Project for the Challenge
-about: Use this to submit your completed project
-title: ''
-labels: Project Submission
-assignees: AJ-Zafar
-
----
-
 name: Submission Template
 description: Use this form to submit your solution for feedback
 title: "[Submission] Your_Project_Name"
