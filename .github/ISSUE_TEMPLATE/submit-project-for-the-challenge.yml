@@ -27,8 +27,10 @@ body:
       label: Challenges Faced
       description: Describe any challenges you faced while building your solution.
       placeholder: I struggled with implementing the sorting functionality and resolved it by using a conditional column.
-  - type: textarea
-    id: feedback_focus
+  - type: markdown
     attributes:
-      label: Areas for Feedback
-      description: Let us know which parts of your app you’d like specific feedba
+      value: |
+        ### 📎 Upload Your `.zip` File
+        After submitting this form, attach your `.zip` file to this issue manually by dragging and dropping it into the comment box below.
+        - Ensure your file is named as: `yourname_projectname.zip`.
+        - Example: `john_doe_todolist.zip`.
