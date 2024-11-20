@@ -1,4 +1,4 @@
-name: Submission Template
+name: Submit Project for the Challenge
 description: Use this form to submit your solution for feedback
 title: "[Submission] Your_Project_Name"
 labels: submission
@@ -31,12 +31,4 @@ body:
     id: feedback_focus
     attributes:
       label: Areas for Feedback
-      description: Let us know which parts of your app you’d like specific feedback on (e.g., UX, functionality, or bonus features).
-      placeholder: I'd love feedback on how I implemented the progress bar and any UX improvements.
-  - type: file
-    id: zip_file
-    attributes:
-      label: Upload Your .zip File
-      description: Attach your solution as a .zip file (named as yourname_projectname.zip).
-      accept:
-        - application/zip
+      description: Let us know which parts of your app you’d like specific feedba
