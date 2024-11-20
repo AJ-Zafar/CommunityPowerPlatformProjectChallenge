@@ -1,6 +1,6 @@
 # Power Platform Project Challenge 2024 🚀
 
-Welcome to **The Power Platform Project Challenge**! This is an opportunity to tackle real-world app-building scenarios, sharpen your skills, and receive feedback on your solutions. Showcase your work, gain valuable experience, and add this project to your portfolio, or just get involved and have some fun! 🌟
+Welcome to **The Power Platform Project Challenge**! This is an opportunity for you to tackle real-world like app-building scenarios, sharpen your skills, and receive feedback on your solutions from your friends, colleagues and peers. Showcase your work, gain valuable experience, and add this project to your portfolio, or just get involved and have some fun! 🌟
 
 This has been created off the back of a lot of people asking for suggestions for projects to build their experience and evidence skills after they complete things like the Power Up Program, PL-900 and other Power Platform Training. If this is appreciated and popular I will do more of these with different challenges. Give these a try especially if you are looking to build up some confidence or just have some fun! 
 
@@ -44,8 +44,8 @@ I will be taking part in building these and sharing how I might tackle these cha
    - **Bonus Features**:
      - Add item categories (e.g., electronics, clothing, personal documents).
      - Show statistics, such as:
-       - Total items logged.
-       - Number of items successfully matched.
+       - Total items logged per week/month.
+       - Number of items successfully matched per week/month.
 
 ---
 
@@ -69,6 +69,7 @@ I will be taking part in building these and sharing how I might tackle these cha
        - Categories with the most tracked habits.
      - Notifications or reminders for incomplete habits.
      - Weekly progress reports sent to the user's email summarising counts of what they have done.
+     - Gamification features to generate healthy competition between users of the app
 
 **4. Event Planner App**
    - Develop an app to plan and manage events where users can:
@@ -107,14 +108,15 @@ I will be taking part in building these and sharing how I might tackle these cha
        - Organize questions by categories.
    - **Bonus Features**:
      - Add power-ups like:
-     - Implement dynamic question difficulty where harder questions yield more points.
-     - Include fun animations or sound effects for correct/incorrect answers.
+       - Implement dynamic question difficulty where harder questions yield more points.
+       - Include fun animations or sound effects for correct/incorrect answers.
 
 **6. Scalable Multi-Site Desk and Room Booking Solution**
    - Create a booking app to manage desks and meeting rooms across multiple locations where users can:
      - Select a site and view available desks/rooms.
      - Book a desk/room for a specific date and time.
      - Filter available Rooms by features such as the equipment and facilities of the room and the capacity the room can hold.
+     - Amend or cancel their existing bookings
    - **Features**:
      - Display:
        - A calendar view of bookings.
@@ -123,6 +125,7 @@ I will be taking part in building these and sharing how I might tackle these cha
        - Add or remove desks/rooms at each site.
        - View booking statistics (e.g., busiest sites, most booked times).
        - Prevent double bookings or conflicts.
+       - Shuffle bookings accordingly in the event of urgent/high-priority incoming requests for rooms/desks where availability is limited
    - **Bonus Features**:
      - Integrate with Teams for meeting room bookings.
      - Add a section where admins can upload floor plans for sites as a document and users can click to see this document when looking to book at a location.
@@ -154,7 +157,7 @@ I will be taking part in building these and sharing how I might tackle these cha
 
 1. **Build Your Solution**:
    - Choose a challenge and design your solution using the Power Platform.
-   - Include all necessary files (exported solution, and supporting documentation).
+   - Include all necessary files (exported solution, and supporting documentation such as technical design documents, user interface mock-ups, user/administration guides, data or deployment scripts to help make your app fully functional following deployment etc).
 
 2. **Package Your Solution**:
    - Zip your project files into a single `.zip` file.
@@ -180,6 +183,12 @@ I will be taking part in building these and sharing how I might tackle these cha
 - **Grading System**:
   - Solutions will be graded on:
     - **Functionality**: How well does the app meet requirements?
+    - **Adherance Architectural/Design Best Practices**: 
+      - Did you use the most appropriate type of component within the Platform Platform?
+      - Did you design an optimal data model?
+      - Did you consider relevant governance and data access control measures?
+      - How easy will your solution be to maintain?
+      - Does your solution leverage any unsupported techniques?
     - **Creativity**: Are there unique or innovative features?
     - **User Experience**: Is the app intuitive and easy to use?
     - **Bonus Features**: Did you implement optional extras?
