@@ -1,6 +1,12 @@
 # Power Platform Challenge 2024 🚀
 
-Welcome to **My Power Platform Challenge**! This is an opportunity to tackle real-world app-building scenarios, sharpen your skills, and receive feedback on your solutions. Showcase your work, gain valuable experience, and add this project to your portfolio! 🌟
+Welcome to **The Power Platform Challenge**! This is an opportunity to tackle real-world app-building scenarios, sharpen your skills, and receive feedback on your solutions. Showcase your work, gain valuable experience, and add this project to your portfolio or just get involved to have some fun! 🌟
+
+This has been created off the back of a lot of people asking for suggestions for projects to build their experience and evidence skills after they complete things like the Power Up Program, PL-900 and other Power Platform Training. If this is appreciated and popular I will do more of these with different challenges. Give these a try especially if you are looking to build up some confidence or just have some fun! 
+
+Try to build solutions using Dataverse as the Datasource rather than Sharepoint. If you have any issues with this let me know.
+
+I will be taking part in building these and sharing how I might tackle these challenges for those interested 🙂.
 
 ---
 
@@ -26,7 +32,7 @@ Welcome to **My Power Platform Challenge**! This is an opportunity to tackle rea
    - Create an app to log and match lost and found items where users can:
      - Log an item as "Lost" or "Found" with:
        - Item description (e.g., "Black wallet with initials JD").
-       - Date and location (e.g., "Lost at City Park on 2024-11-12").
+       - Date and location (e.g., "Lost at City Park in Birmingham on 2024-11-12").
        - Optionally upload an image.
      - View all logged items in a gallery, filterable by:
        - Status (Lost or Found).
@@ -34,13 +40,12 @@ Welcome to **My Power Platform Challenge**! This is an opportunity to tackle rea
    - **Features**:
      - Admin functionality to:
        - Match "Lost" items with "Found" items based on descriptions or images.
-       - Notify users of potential matches using Power Automate (email or Teams).
+       - Notify users of potential matches using email or Teams.
    - **Bonus Features**:
      - Add item categories (e.g., electronics, clothing, personal documents).
      - Show statistics, such as:
        - Total items logged.
        - Number of items successfully matched.
-     - Include a map view showing the last known location of items.
 
 ---
 
@@ -57,14 +62,13 @@ Welcome to **My Power Platform Challenge**! This is an opportunity to tackle rea
        - A summary view showing the user's most completed habits.
      - Implement a simple reward system:
        - Assign points for each completed habit.
-       - Include a "Reward Store" to redeem points for virtual items (e.g., badges).
    - **Bonus Features**:
      - A dashboard showing:
        - Total points.
        - Longest streaks.
        - Categories with the most tracked habits.
      - Notifications or reminders for incomplete habits.
-     - Weekly progress reports via Power Automate.
+     - Weekly progress reports sent to the user's email summarising counts of what they have done.
 
 **4. Event Planner App**
    - Develop an app to plan and manage events where users can:
@@ -72,20 +76,22 @@ Welcome to **My Power Platform Challenge**! This is an opportunity to tackle rea
        - Event name, description, date, time, and location.
        - Capacity limits and ticket types (if applicable).
      - Invite attendees by email.
+     - Users can RSVP by clicking a link in the email which takes them to the app.
      - View RSVP statuses (Accepted, Declined, No Response).
    - **Features**:
      - Display:
        - Upcoming events in a calendar view.
        - RSVP summaries with a breakdown of attendee statuses.
-     - Send automated email reminders via Power Automate.
+     - Send automated email reminders.
    - **Bonus Features**:
      - Enable users to upload files for events (e.g., agendas, flyers).
      - Add a waitlist feature that automatically notifies users if spots become available.
      - Include a feedback form for post-event reviews.
+     - Try deep linking from the email directly to a form for them to RSVP/See the event.
 
 ---
 
-### **Challenging Challenges**
+### **More Challenging Challenges**
 
 **5. Retro Arcade Quiz Game**
    - Build a retro-style quiz game where users can:
@@ -98,11 +104,9 @@ Welcome to **My Power Platform Challenge**! This is an opportunity to tackle rea
        - The ability to pause and resume the game.
      - Admin functionality to:
        - Upload and manage quiz questions and answers in a table.
-       - Organize questions by difficulty levels or categories.
+       - Organize questions by categories.
    - **Bonus Features**:
      - Add power-ups like:
-       - "Double Points" for the next question.
-       - "Skip Question" with no penalty.
      - Implement dynamic question difficulty where harder questions yield more points.
      - Include fun animations or sound effects for correct/incorrect answers.
 
@@ -110,7 +114,7 @@ Welcome to **My Power Platform Challenge**! This is an opportunity to tackle rea
    - Create a booking app to manage desks and meeting rooms across multiple locations where users can:
      - Select a site and view available desks/rooms.
      - Book a desk/room for a specific date and time.
-     - Filter available spaces by features (e.g., equipment, size).
+     - Filter available Rooms by features such as the equipment and facilities of the room and the capacity the room can hold.
    - **Features**:
      - Display:
        - A calendar view of bookings.
@@ -118,11 +122,10 @@ Welcome to **My Power Platform Challenge**! This is an opportunity to tackle rea
      - Admin functionality to:
        - Add or remove desks/rooms at each site.
        - View booking statistics (e.g., busiest sites, most booked times).
-       - Manage double bookings or conflicts.
+       - Prevent double bookings or conflicts.
    - **Bonus Features**:
-     - Add a waitlist for fully booked slots.
      - Integrate with Teams for meeting room bookings.
-     - Notify users of upcoming bookings via email or Teams.
+     - Add a section where admins can upload floor plans for sites as a document and users can click to see this document when looking to book at a location.
 
 ---
 
@@ -132,6 +135,7 @@ Welcome to **My Power Platform Challenge**! This is an opportunity to tackle rea
    - Build a two-player Connect 4 game where users can:
      - Play turn-based with clear indicators for whose turn it is (red vs. yellow).
      - Drop pieces into columns, which fall to the lowest available row.
+     - Allow two people to use one app session to play on one device
    - **Features**:
      - Display:
        - A 7x6 grid with occupied and empty cells.
@@ -142,6 +146,7 @@ Welcome to **My Power Platform Challenge**! This is an opportunity to tackle rea
    - **Bonus Features**:
      - Add a scoreboard to track wins for each player.
      - Include animations for pieces dropping into place.
+     - Allow users to challenge someone and play against them in different sessions on different devices and notify the opposing user that it is their turn via Teams.
 
 ---
 
@@ -149,7 +154,7 @@ Welcome to **My Power Platform Challenge**! This is an opportunity to tackle rea
 
 1. **Build Your Solution**:
    - Choose a challenge and design your solution using the Power Platform.
-   - Include all necessary files (screenshots, exported solution, and supporting documentation).
+   - Include all necessary files (exported solution, and supporting documentation).
 
 2. **Package Your Solution**:
    - Zip your project files into a single `.zip` file.
