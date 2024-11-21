@@ -205,7 +205,7 @@ I will be taking part in building these and sharing how I might tackle these cha
 
 ## 📅 Timeline
 
-- **Challenge Start Date**: 20/11/2024
+- **Challenge Start Date**: 21/11/2024
 - **Submission Deadline**: 25/12/2024
 
 ---
