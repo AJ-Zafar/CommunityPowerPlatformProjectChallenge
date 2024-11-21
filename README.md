@@ -183,8 +183,9 @@ I will be taking part in building these and sharing how I might tackle these cha
 - **Grading System**:
   - Solutions will be graded on:
     - **Functionality**: How well does the app meet requirements?
-    - **Adherance Architectural/Design Best Practices**: 
+    - **Adherance to Architectural/Design Best Practices**: 
       - Did you use the most appropriate type of component(s) within the Platform Platform?
+      - How well did you use Out of the Box features and components?
       - Have you tailored your app to suit the different types of target user personas?
       - Did you design an optimal data model?
       - Did you consider relevant governance and data access control measures?
